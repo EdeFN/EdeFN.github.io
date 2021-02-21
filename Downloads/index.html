@@ -29,6 +29,35 @@
 <script>new WOW().init();$(function () {$('[data-toggle="tooltip"]').tooltip()})</script>
 
 
-<div class="form-group">
-<a type="button" class="center" href="https://dashboard.ezfn.dev/lobbybot">Create a bot</a>
+<head>
+<style>
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<h2>Centering</h2>
+<p>In this example, we use positioning and the transform property to vertically and horizontally center the button element:</p>
+
+<div class="container">
+  <div class="center">
+    <div class="form-group">
+<a type="button" class="btn btn-primary btn-block btn-sm float-right w-25" href="https://dashboard.ezfn.dev/lobbybot">Create a bot</a>
 </div>
+  </div>
+</div>
+
+</body>
